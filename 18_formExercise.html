@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <form action="http://www.google.com" method="">
+        <h1>Your Course Landing Page</h1>
+
+        <label for="title"><b>Course Title</b></label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="description"><b>Course description</b></label> <br>
+        <textarea rows="10" cols="30" id="description" name="description"></textarea>
+        <br>
+        <label for="skill"><b>Skill Level</b></label>
+        <select name="skillLvl" id="skill">
+            <option value="b">Beginner Level</option>
+            <option value="i">Intermediate Level</option>
+            <option value="e">Expert Level</option>
+            <option value="all">All Level</option>
+        </select>
+        <br>
+        <label for="publish">Ready to publish the course?</label>
+        <input type="checkbox" id="publish" value="yes" name="ready-to-publish">
+        <br>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
